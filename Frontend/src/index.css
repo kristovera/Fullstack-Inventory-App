@@ -1,0 +1,59 @@
+* {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+body {
+  /* background-color: rgb(156, 156, 156); */
+  padding-bottom: 65px;
+}
+
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #245bdc;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgb(39, 104, 244);
+  box-shadow: inset -1px 0 0 rgb(245, 240, 240);
+}
+
+.navbar .form-control {
+  padding: 0.75rem 1rem;
+}
